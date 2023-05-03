@@ -14,7 +14,7 @@ public class Emprego {
 	
 		Emprego a = new Emprego();
 		a.tipodeservico=JOptionPane.showInputDialog("Deseja cadastrar qual vaga? ");
-		
+		a.requisitosminimos=JOptionPane.showInputDialog("Qual sua especialidade? ");
 	}
 	
 	public void cadastrartipodeservico(String tipodeservico) {
@@ -28,4 +28,6 @@ public class Emprego {
 	public void cadastrarrequisitosminimos(String requisitosminimos) {
 
 	}
+	
+	
 }
